@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://amcdnl@github.com/amcdnl/ngrx-actions.git"
+    "url": "git+https://amcdnl@github.com/mplabs/ngrx-actions.git"
   },
   "keywords": [
     "ngrx",
@@ -25,21 +25,18 @@
   "author": "Austin McDaniel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amcdnl/ngrx-actions/issues"
+    "url": "https://github.com/mplabs/ngrx-actions/issues"
   },
-  "homepage": "https://github.com/amcdnl/ngrx-actions#readme",
+  "homepage": "https://github.com/mplabs/ngrx-actions#readme",
   "peerDependencies": {
-    "@angular/core": "^6.0.0",
-    "@ngrx/effects": "^6.0.0",
-    "@ngrx/store": "^6.0.0",
-    "rxjs": "^6.0.0"
+    "@ngrx/effects": "7.4.0",
+    "rxjs": "^6.6.7"
   },
   "devDependencies": {
-    "@angular/compiler": "^6.0.0",
-    "@angular/compiler-cli": "^6.0.0",
-    "@angular/core": "^6.0.0",
-    "@ngrx/effects": "6.0.0-beta.3",
-    "@ngrx/store": "6.0.0-beta.3",
+    "@angular/compiler": "^7.2.16",
+    "@angular/compiler-cli": "^7.2.16",
+    "@angular/core": "^7.2.16",
+    "@ngrx/store": "7.4.0",
     "@types/jasmine": "^2.8.0",
     "husky": "^0.14.3",
     "jasmine": "^2.8.0",
@@ -47,11 +44,10 @@
     "ng-packagr": "^3.0.3",
     "prettier": "^1.9.2",
     "reflect-metadata": "^0.1.10",
-    "rxjs": "^6.0.0",
-    "tsickle": "^0.26.0",
+    "tsickle": "^0.36.0",
     "tslint": "^5.8.0",
-    "typescript": "~2.7.0",
-    "zone.js": "^0.8.4",
+    "typescript": "~3.2.4",
+    "zone.js": "^0.8.29",
     "rxjs-compat": "^6.1.0"
   },
   "ngPackage": {
@@ -69,5 +65,8 @@
     "singleQuote": true,
     "printWidth": 120,
     "tabWidth": 2
+  },
+  "dependencies": {
+    "@angular-devkit/schematics": "^13.0.2"
   }
 }
